@@ -1,0 +1,56 @@
+export const portfolio = {
+  name: 'Lakshay Kumawat',
+  title: 'AI & Data Science Engineer in the making | Python Developer | Agentic AI Builder',
+  tagline: 'I design and build AI agents and data-driven tools that solve real problems.',
+  location: 'Jaipur, India',
+  email: 'lakshay7014@gmail.com',
+  phone: '7014954046',
+  showPhone: false,
+  education: {
+    degree: 'B.Tech, 2nd year',
+    field: 'Computer Science & Engineering',
+    specialization: 'AI & Data Science',
+    university: 'JECRC University',
+  },
+  bio: [
+    'I am Lakshay, a Computer Science student at JECRC University with a strong interest in turning intelligent ideas into dependable products.',
+    'I work across AI agents, agentic workflows and data science, exploring how autonomous systems can make everyday tasks simpler.',
+    'I build with Python and AI-assisted development tools, learning quickly by shipping useful, thoughtful experiments.',
+  ],
+  skills: {
+    languages: ['C', 'C++', 'Python'],
+    focus: ['AI Agents', 'Agentic Workflows', 'Data Science'],
+    tools: ['Claude', 'GPT', 'Antigravity', 'Cursor', 'Supabase', 'n8n'],
+  },
+  projects: [
+    { id:'lunarsight', title:'LunarSight', description:'Lunar south pole mission planning and visualization app built with a university team.', tags:['Python','Visualization','Mission Planning'], status:'Team project', github:'https://github.com/your-username/lunarsight', live:'https://example.com/lunarsight', flow:[['Mission data','Tool'],['Python','Compute'],['Map','Output']] },
+    { id:'study-buddy', title:'Study Buddy Agent', description:'An AI study assistant built with n8n and Gemini for focused learning sessions.', tags:['n8n','AI Agents','Gemini'], status:'Prototype', github:'https://github.com/your-username/study-buddy-agent', live:'https://example.com/study-buddy', flow:[['Question','Input'],['Gemini','Model'],['n8n','Agent'],['Answer','Output']] },
+    { id:'expense', title:'Expense Tracker', description:'A web app for tracking everyday expenses and understanding spending patterns.', tags:['Web App','Supabase'], status:'Live', github:'https://github.com/your-username/expense-tracker', live:'https://example.com/expense-tracker', flow:[['Transaction','Input'],['Supabase','Storage'],['Dashboard','Output']] },
+  ],
+  timeline: [
+    { year:'2026', title:'NASA Space Apps Challenge 2026', subtitle:'Participant · Hackathon', status:'completed' },
+    { year:'In progress', title:'AI Agents and Agentic Workflows', subtitle:'Coursera', status:'progress' },
+    { year:'In progress', title:'IBM Data Science', subtitle:'Coursera', status:'progress' },
+  ],
+  socials: {
+    github:'https://github.com/lakshay7014-kmt',
+    linkedin:'https://www.linkedin.com/in/lakshay-kumawat-4b625637b',
+  },
+  resume:'/resume.pdf',
+  robotImages:{
+    hero:'/src/assets/robots/hero-robot.svg',
+    about:'/src/assets/robots/about-robot.svg',
+    skills:'/src/assets/robots/skills-robot.svg',
+    projects:'/src/assets/robots/projects-robot.svg',
+    contact:'/src/assets/robots/contact-robot.svg',
+    sleepy:'/src/assets/robots/sleepy-robot.svg',
+  },
+  chatbot:[
+    { keys:['skill','tools','language'], answer:'I work with C, C++, Python, AI agents, agentic workflows and data science. I use Claude, GPT, Antigravity, Cursor, Supabase and n8n.' },
+    { keys:['lunar','lunarsight'], answer:'LunarSight is a university team project for Lunar south pole mission planning and visualization, built with Python.' },
+    { keys:['study','buddy'], answer:'Study Buddy Agent is an AI study assistant built with n8n and Gemini to make learning sessions more focused.' },
+    { keys:['expense','tracker'], answer:'My Expense Tracker is a Supabase-backed web app for organizing and understanding everyday spending.' },
+    { keys:['contact','email','hire'], answer:'You can reach me at lakshay7014@gmail.com or connect with me on LinkedIn.' },
+    { keys:['intern','open'], answer:'Yes, I am open to internship opportunities in AI, data science, Python and agentic AI.' },
+  ],
+};
